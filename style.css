@@ -125,6 +125,7 @@ a {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  text-decoration: none;
 }
 
 /* change colours to suit your needs */
@@ -170,4 +171,142 @@ hr {
 input,
 select {
   vertical-align: middle;
+}
+
+/*MY CODE*/
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: poppins;
+}
+
+.header {
+  padding: 60px 70px 0px 70px;
+  background-image: linear-gradient(rgb(8, 167, 221), rgb(0, 215, 221));
+}
+
+.header-menu-bar {
+  width: 100%;
+  display: flex;
+  flex-wrap: row-wrap;
+}
+
+.brand-logo {
+  width: 30%;
+  font-family: poppins;
+  color: white;
+  font-size: 30px;
+}
+
+nav {
+  width: 70%;
+  padding-left: 100px;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: row-wrap;
+  justify-content: right;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+.signup a {
+  padding: 5px 30px 5px 30px;
+  border-radius: 30px;
+  background-color: transparent;
+  font-family: poppins;
+  color: white;
+  font-size: 14px;
+  transition: all 500ms 50ms ease-out;
+}
+
+.login a {
+  padding: 5px 30px 5px 30px;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: transparent;
+  font-family: poppins;
+  color: white;
+  font-size: 14px;
+  transition: all 500ms 50ms ease-out;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.header-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-text {
+  width: fit-content;
+}
+
+.header-text h1 {
+  font-family: poppins;
+  font-size: 54px;
+  color: white;
+  line-height: 80px;
+  padding-bottom: 55px;
+}
+
+.header-text p {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  color: white;
+  padding-bottom: 25px;
+  line-height: 30px;
+  word-spacing: 2px;
+}
+
+.install {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.install ul {
+  display: flex;
+  flex-wrap: row-wrap;
+  justify-content: left;
+}
+
+.ios a {
+  margin-top: 40px;
+  margin-right: 20px;
+  padding: 25px 40px 25px 40px;
+  background-color: black;
+  font-family: poppins;
+  color: white;
+  font-size: 18px;
+  transition: all 500ms 50ms ease-out;
+}
+
+.android a {
+  margin-top: 40px;
+  margin-right: 20px;
+  padding: 25px 40px 25px 40px;
+  border: 1px solid white;
+  background-color: transparent;
+  font-family: poppins;
+  color: white;
+  font-size: 18px;
+  transition: all 500ms 50ms ease-out;
+}
+
+.install ul li a:hover {
+  background-color: white;
+  color: black;
 }
