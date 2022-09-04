@@ -379,8 +379,23 @@ nav ul li a:hover {
 
 .sector {
   width: 100%;
-  height: 100vh;
 }
+
+@media only screen and (min-width: 1000px) {
+
+  .sector{
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 40px;
+  }
+
+}
+
 
 .sector-1 {
   width: fit-content;
@@ -408,7 +423,7 @@ nav ul li a:hover {
   text-align: center;
   letter-spacing: 1px;
   padding-bottom: 30px;
-  font-size: 30px;
+  font-size: 42px;
   line-height: 55px;
 }
 
@@ -462,7 +477,7 @@ nav ul li a:hover {
     width: fit-content;
     height: auto;
     padding-top: 9em;
-    padding-bottom: 3em;
+    padding-bottom: 9em;
     margin: 0 auto;
   }
 
@@ -473,7 +488,7 @@ nav ul li a:hover {
 
   .sector-1-card {
     margin: 70px 0px 20px 0px;
-    padding: 30px 20px 40px 20px;
+    padding: 30px 50px 40px 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -538,13 +553,20 @@ nav ul li a:hover {
 
 @media only screen and (min-width: 1000px) {
   .sector-2-content {
+    margin: 0 auto;
     display: flex;
     flex-direction: row-reverse;
-    padding: 0 20px;
+    padding: 0px 60px;
   }
 
   .sector-2-text {
-    width: 45%;
+    width: fit-content;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .sector-2-content {
+    padding: 0px 250px;
   }
 }
 
@@ -552,19 +574,22 @@ nav ul li a:hover {
 
 .sector-3 {
   width: fit-content;
-  height: auto;
   padding-bottom: 9em;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
 }
 
 .sector-3-content {
-  padding: 0 20px;
+  padding: 0px 20px 0px 20px;
 }
 
 .sector-3-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .sector-3-text h1 {
@@ -593,6 +618,16 @@ nav ul li a:hover {
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 4em;
+}
+
+.sector-3-cards{
+  width: fit-content;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .sector-3-card1 {
@@ -645,17 +680,17 @@ nav ul li a:hover {
 
 .sector-3-cards i {
   color: white;
-  padding: 50px 0px 50px 20px;
+  padding: 50px 0px 40px 20px;
 }
 
-.sector-3-cards h6 {
+.sector-3-cards h1 {
   font-family: Poppins;
   text-align: left;
   color: white;
   font-weight: 500;
-  font-size: 30px;
-  line-height: 40px;
-  padding: 0px 0px 40px 40px;
+  font-size: 28px;
+  line-height: 33px;
+  padding: 0px 0px 30px 35px;
 }
 
 .sector-3-cards p {
@@ -665,11 +700,13 @@ nav ul li a:hover {
   padding-bottom: 25px;
   line-height: 20px;
   word-spacing: 2px;
-  padding: 0px 30px 90px 40px;
+  padding: 0px 30px 50px 35px;
 }
 
 @media only screen and (min-width: 700px) {
+  
   .sector-3-cards {
+    width: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -691,15 +728,13 @@ nav ul li a:hover {
   .sector-3-content {
     width: 100%;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .sector-3-text {
-    width: 38%;
-    padding: 500px 30px 0px 30px;
-  }
-
-  .sector-3-cards {
-    width: 50%;
+    width: fit-content;
+    padding: 200px 50px 0px 30px;
   }
 
   .sector-3-cards h6 {
@@ -709,6 +744,17 @@ nav ul li a:hover {
   .sector-3-cards p {
     font-size: 16px;
     color: white;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .sector-3-content {
+    padding
+    padding: 0px 250px;
+  }
+
+  .sector-3-text {
+    width: fit-content;
   }
 }
 
@@ -846,6 +892,8 @@ nav ul li a:hover {
 
 @media only screen and (min-width: 1000px) {
   .sector-4 {
+
+    padding-top: 8em;
     padding-bottom: 8em;
   }
 
@@ -960,7 +1008,7 @@ textarea {
   }
 
   .sector-5-text {
-    width: 40%;
+    width: fit-content;
   }
 }
 
