@@ -381,15 +381,19 @@ nav ul li a:hover {
   width: 100%;
 }
 
+.custom {
+  flex-wrap: wrap-reverse;
+}
+
 @media only screen and (min-width: 1000px) {
 
   .sector{
-    width: fit-content;
-    margin: 0 auto;
+    /* width: fit-content; */
+    /* margin: 0 auto; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     align-content: center;
     padding: 40px;
   }
@@ -749,7 +753,6 @@ nav ul li a:hover {
 
 @media only screen and (min-width: 1400px) {
   .sector-3-content {
-    padding
     padding: 0px 250px;
   }
 
@@ -917,15 +920,16 @@ nav ul li a:hover {
   width: fit-content;
   height: auto;
   padding-bottom: 12em;
-  margin-left: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .sector-5-form {
-  width: fit-content;
+  /* width: fit-content; */
 }
 
 .sector-5-form form {
-  width: 80%;
+  /* width: 80%; */
   display: flex;
   flex-direction: column;
   margin-top: 50px;
@@ -970,7 +974,7 @@ textarea {
 
 .sector-5-text {
   margin-top: 30px;
-  margin-right: 70px;
+  /* margin-right: 70px; */
   width: fit-content;
   text-align: left;
 }
@@ -1004,7 +1008,7 @@ textarea {
   }
 
   .sector-5-form {
-    width: 50%;
+    /* width: 50%; */
   }
 
   .sector-5-text {
@@ -1100,7 +1104,7 @@ footer .footer-menu-content .footer-menu, .footer-platform{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 15px 15px;
+  /* padding: 15px 15px; */
 }
 
 footer .footer-menu-content .footer-menu li, .footer-platform li{
