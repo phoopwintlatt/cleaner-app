@@ -752,10 +752,6 @@ nav ul li a:hover {
 }
 
 @media only screen and (min-width: 1400px) {
-  .sector-3-content {
-    padding: 0px 250px;
-  }
-
   .sector-3-text {
     width: fit-content;
   }
